@@ -24,6 +24,7 @@ server=app.server
 
 app.title="Dashboard Financiero"
 
+df=pf.read_csv("empresas.csv")
 
 sales_list=["Total Revenues","Cost of Revenues","Gross Profit","Total Operating Expenses",
             "Operating Income","Net Income", "Shares Outstanding","Close Stock Price",
